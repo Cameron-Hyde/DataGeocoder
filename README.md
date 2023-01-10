@@ -1,4 +1,4 @@
-# Address-To-Map
+# DataGeocoder
 This tool parses data from an Excel or CSV file, geocodes the addresses, and creates a map showing the locations of the data points using Plotly and Geopy. It also has a GUI that allows the user to input the necessary information to process and visualize the data
 #### Address Scraping and Mapping Tool
 
@@ -51,7 +51,8 @@ To see these addresses on a map, You would follow the prompts in the GUI to sele
 <img width="632" alt="GUI" src="https://user-images.githubusercontent.com/109874130/211659929-9a7d6705-6ea7-4ea2-b34d-55e7fb37250a.png">
 
 input "Owner" as the owner column, "Address" as the address column, and "sqft" as the sqft column (if it exists). The tool will then process the data, geocode the addresses, and show the data points on a map.
-#Please note that the example provided is based on a file format and the exact input fields and their prompts may be different based on how you have implemented the tool
+
+## Please note that the example provided is based on a file format and the exact input fields and their prompts may be different based on how you have implemented the tool
 
 ## Example
 Below is an example of the map that is generated when the 'sqft' column is included in the data:
